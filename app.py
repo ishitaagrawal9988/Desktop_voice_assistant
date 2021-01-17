@@ -95,9 +95,8 @@ if __name__ == '__main__':
                     speak("Email has been send successfully")
                 except Exception as e:
                     print(e)
-                    speak("Sorry my friend ishita, i am not able to send email")
-            elif "open my youtube channel" in query:
-                        webbrowser.open("https://www.youtube.com/channel/UCWlMkAWhaW_3mH1Q17pyyGg")
+                    speak("Sorry my friend, i am not able to send email")
+
 
             elif "stop" in query:
                 exit()
